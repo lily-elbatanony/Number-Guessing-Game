@@ -28,5 +28,7 @@ def play_game():
             print(f"Congratulations! You guessed the number in {attempts} attempts.")
             break
         
+play_game()
+        
         
         
