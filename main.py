@@ -9,3 +9,6 @@ def get_user_guess():
         except ValueError:
             print("Invalid input! please enter a number.")
             
+import random
+def generate_random_number():
+    return random.randint(1,100)
